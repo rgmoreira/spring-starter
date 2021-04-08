@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package model;
+package br.com.rgmoreira.springstarter.models;
 
 /**
  *
@@ -11,14 +11,14 @@ package model;
  */
 public class HelloWorld {
 
-    private String talk;
+    private String say;
 
-    public String getTalk() {
-        return talk;
+    public String getSay() {
+        return say;
     }
 
-    public void setTalk(String talk) {
-        this.talk = talk;
+    public void setSay(String say) {
+        this.say = say;
     }
 
 }

@@ -5,7 +5,7 @@
  */
 package br.com.rgmoreira.springstarter;
 
-import model.HelloWorld;
+import br.com.rgmoreira.springstarter.models.HelloWorld;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,7 +21,7 @@ public class HelloWorldController {
     @GetMapping("/say")
     public HelloWorld getHello() {
         var hello = new HelloWorld();
-        hello.setTalk("Hello World!");
+        hello.setSay("Hello World!");
         return hello;
     }
 }
