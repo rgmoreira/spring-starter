@@ -1,13 +1,13 @@
-package br.com.rgmoreira.springstarter;
+package br.skeleton;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringStarterApplicationTests {
+class SkeletonApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void testContextLoads() {
+    }
 
 }

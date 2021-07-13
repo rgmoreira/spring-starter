@@ -1,13 +1,14 @@
-package br.com.rgmoreira.springstarter;
+package br.skeleton;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringStarterApplication {
+public class SkeletonApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringStarterApplication.class, args);
+
+        SpringApplication.run(SkeletonApplication.class, args);
     }
 
 }

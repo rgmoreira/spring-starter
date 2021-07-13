@@ -4,4 +4,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends maven ca-certif
 
 WORKDIR /app
 
-ENTRYPOINT if [ ! -f "mvnw" ]; then env && mvn spring-boot:run ; else env && ./mvnw spring-boot:run ; fi
+ENTRYPOINT if [ ! -f "mvnw" ]; then env && mvn spring-boot:run -U ; else env && ./mvnw spring-boot:run -U ; fi
