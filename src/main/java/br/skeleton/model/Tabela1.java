@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.skeleton.db2.model;
+package br.skeleton.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -26,8 +26,8 @@ import lombok.experimental.FieldDefaults;
 @NoArgsConstructor
 @Entity
 @FieldDefaults(level = AccessLevel.PRIVATE)
-@Table(name = "tabela2")
-public class Tabela2 {
+@Table(name = "tabela1")
+public class Tabela1 {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

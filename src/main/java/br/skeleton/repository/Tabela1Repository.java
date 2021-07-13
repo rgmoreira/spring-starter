@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.skeleton.db1.repository;
+package br.skeleton.repository;
 
-import br.skeleton.db1.model.Tabela1;
+import br.skeleton.model.Tabela1;
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 

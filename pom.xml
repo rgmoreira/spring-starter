@@ -8,11 +8,16 @@
         <version>2.4.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>skeleton-java</groupId>
-    <artifactId>skeleton-java</artifactId>
+    <groupId>spring-starter</groupId>
+    <artifactId>spring-starter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>skeleton-java</name>
-    <description>Skeleton projeto Java</description>
+    <name>spring-starter</name>
+    <description>Skeleton projeto Java com 
+
+springboot 2
+database h2
+docker
+swagger</description>
     <properties>
         <java.version>11</java.version>
     </properties>

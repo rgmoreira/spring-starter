@@ -5,8 +5,8 @@
  */
 package br.skeleton.service;
 
-import br.skeleton.db1.model.Tabela1;
-import br.skeleton.db1.repository.Tabela1Repository;
+import br.skeleton.model.Tabela1;
+import br.skeleton.repository.Tabela1Repository;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;

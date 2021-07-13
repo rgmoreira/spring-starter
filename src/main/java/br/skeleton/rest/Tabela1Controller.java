@@ -5,7 +5,7 @@
  */
 package br.skeleton.rest;
 
-import br.skeleton.db1.model.Tabela1;
+import br.skeleton.model.Tabela1;
 import br.skeleton.service.Tabela1Service;
 import java.util.List;
 import java.util.Optional;
